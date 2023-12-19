@@ -95,7 +95,7 @@
 
 function dispalyGreetings(today){
         hrs = today.getHours();
-        name=""
+        name="Alex"
         if (hrs < 12)
             greet = 'Good Morning  '+name;
         else if (hrs >= 12 && hrs <= 17)
@@ -103,6 +103,9 @@ function dispalyGreetings(today){
         else if (hrs >= 17 && hrs <= 24)
             greet = 'Good Evening  '+name;
         document.getElementById('greet').innerHTML = greet;
+
+    }
+    
 
     }
 
